@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=0. Set Reboot to Windows
+Comment=Configure rEFInd to boot Windows on next restart
+Exec=bash -c 'pkexec /home/earl/refind-next-boot.sh "Microsoft" && kdialog --msgbox "Boot entry has been set to Windows. Next restart will go to Windows."'
+Icon=/home/earl/.local/share/icons/windows-icon.svg
+Terminal=false
+Categories=System;
+StartupNotify=true
