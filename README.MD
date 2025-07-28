@@ -186,7 +186,7 @@ You can change the Exec value as follows to get a dialog when clicking the short
 
 make sure kdialog is installed first (KDE) or zenity (Gnome), or you can try notify-send if all else fails.
 
-Exec=bash -c 'pkexec /home/earl/refind-next-boot.sh "Microsoft" && kdialog --msgbox "Boot entry has been set to Windows. Next restart will go to Windows."'
+```Exec=bash -c 'pkexec /home/earl/refind-next-boot.sh "Microsoft" && kdialog --msgbox "Boot entry has been set to Windows. Next restart will go to Windows."'```
 
 ## Troubleshooting
 
