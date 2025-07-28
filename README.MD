@@ -124,17 +124,6 @@ If the obvious strings don't work:
 - Try different substrings
 - Check `RefindNextBoot.txt` for error messages
 
-## Technical Details
-
-### How It Works:
-- Modifies the `PreviousBoot` EFI variable (GUID: `36d08fa7-cf0b-42f5-8f14-68df73ed3740`)
-- rEFInd reads this variable to determine the default boot entry
-- Uses substring matching - any part of the boot entry name/path works
-
-### File Locations:
-- **Windows output:** `RefindNextBoot.txt` (same directory as executable)
-- **Linux EFI variables:** `/sys/firmware/efi/efivars/`
-
 ## Credits
 
 Based on original work by:
